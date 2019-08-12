@@ -1,0 +1,7 @@
+steps:
+  - args:
+      - install
+      - 'appengine:stage'
+    name: gcr.io/cloud-builders/mvn
+  - name: 'gcr.io/cloud-builders/gsutil'
+    args: ['cp', '-r', 'target/appengine-staging', 'gs://$PROJECT_ID.appspot.com/gae-skeleton-trigger-test']
