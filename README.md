@@ -4,6 +4,8 @@
 3) Open it in IntelliJ.
 4) Add App Engine Support by: Tools> Cloud Code> App Engine> Add App Engine Support> Google App Engine Standard
 5) In the Choose Module dialog, select the only module, "gaeskeleton-j8", and click ok
-6) In the Add Google App Engine Standard Framework Support dialog, leave Servlet API checked and click ok 
+6) In the Add Google App Engine Standard Framework Support dialog, leave Servlet API checked and click ok
 
 You should be able to deploy to your app engine project. Make sure your project has a standard app engine environment.
+
+Testing commit hook. - BH 2019-08-12
