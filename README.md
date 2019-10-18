@@ -7,3 +7,5 @@
 6) In the Add Google App Engine Standard Framework Support dialog, leave Servlet API checked and click ok 
 
 You should be able to deploy to your app engine project. Make sure your project has a standard app engine environment.
+
+Testing commit hook - bridger 2019-10-18
